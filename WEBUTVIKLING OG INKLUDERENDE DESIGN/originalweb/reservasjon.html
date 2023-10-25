@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reservasjon.css">
+    <title>Mumbai Xpress - Reservasjon</title>
+</head>
+<body>
+    <div class="bg-image" style="background-image: linear-gradient(to top, rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(assets/pexels-chan.jpg); height: fit-content;";>
+        <header>
+            <a class="gå-til-main-content"href="#main-content">Gå til Main Content</a>
+            <nav>
+                <div class="navbar">
+                    <div class="container nav-container">
+                        <input class="checkbox" type="checkbox" name="" id="" />
+                        <div class="logo">
+                            <h1>Mumbai Xpress</h1>
+                        </div>
+                        <div class="hamburger-lines">
+                            <span class="line line1"></span>
+                            <span class="line line2"></span>
+                            <span class="line line3"></span>
+                        </div>  
+                        <div class="menu-items">
+                            <li><a href="index.html">HJEM</a></li>
+                            <li><a href="reservasjon.html">RESERVASJON</a></li>
+                            <li><a href="meny.html">MENY</a></li>
+                            <li><a href="tilgjengelighet.html">TILGJENGELIGHET</a></li>
+                            <li><a href="funPage.html">FUN-PAGE</a></li>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main id="main-content">
+            <div class="page-header">
+                <h1>Reservasjon</h1>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="columns">
+                    <div class="cards">
+                        <h2>Alt om oss!</h2>
+                           <p>Hos Mumbai Xpress har vi en lidenskap for å servere autentisk indisk
+                            mat til våre kunder. Våre profesjonelle kokker fra India glemmer aldri
+                            å ta med seg de ekte krydderne, sammen med de fantastiske ansatte
+                            som vil sikre at du blir tatt godt vare på under hele oppholdet!</p> 
+                            <button href="#" class="hovedknapp">Les mer</button>
+                    </div>
+                </div>
+                <div class="cards-images">
+                    <img src="assets/318213989_570602494799995_5233943015368869943_n.png" alt="">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cards-images">
+                    <img src="assets/317907960_498253748948127_2429199604700976228_n.png" alt="">
+                </div>
+                <div class="columns">
+                    <div class="cards">
+                        <h2>Spesielle anledninger?</h2>
+                        <p>Vi vil alltid ta oss av dine store og små anledninger. Vår nye
+                        renovert to-etasjers restaurant er offisielt tilgjengelig for din spesielle
+                        bestilling. Med et gjestetall opp til 200 i andre etasje, er det
+                        også mulighet for å bestille private møterom i første etasje.</p>    
+                        <h3 style="color: white;">Decor og DJ?</h3>
+                        <p>Vi hjelper deg å gjøre kvelden uforglemmelig! - La oss planlegge sammen.</p>
+                        <h4>Kontakt oss post@mumbaiXpress.no eller 40294820</h4>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="columns">
+                    <div class="cards">
+                        <h2>Hvordan reservere?</h2>
+                        <p>En reservasjon kan gjøres ved å ringe eller direkte på vår nettside! Velg
+                        antall gjester, dato, klokkeslett og legg igjen kontaktinformasjonen din for
+                        reservasjonen. Det er også mulig å legge igjen spesialmeldinger til evt
+                        type forespørsler. Var her for å lytte og servere minneverdig mat og øyeblikk!</p>
+                        <button onclick= "document.location = 'mailto:MumbaiXpress@support.no'" class="hovedknapp">Kontakt oss</button>
+                    </div>
+                </div>
+                <div class="cards-images">
+                    <img src="assets/318022502_676829420751474_1181178198232039271_n.png" alt="">
+                </div>
+            </div>
+
+            <div class="felt">
+                <h2>RESERVER DITT BORD</h2>
+                <div class="fane-innhold">
+                    <h3>Online booking</h3>
+                    <form>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="fnavn">Fornavn</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="fnavn" name="fornavn" placeholder="Per">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="enavn">Etternavn</label>
+                          </div>
+                          <div class="col-75">
+                            <input type="text" id="enavn" name="etternavn" placeholder="Hansen">
+                          </div>
+                        </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="velg-dag">Velg dag</label>
+                          </div>
+                          <div class="col-75">
+                            <select id="velg-dag" name="dager">
+                                <option value="velg-dag"> Velg dag </option>
+                                <option value="mandag"> Mandag </option>
+                                    <option value="tirsdag"> Tirsdag </option>
+                                    <option value="onsdag"> Onsdag </option>
+                                    <option value="torsdag"> Torsdag </option>
+                                    <option value="fredag"> Fredag </option>
+                                    <option value="lørdag"> Lørdag </option>
+                                    <option value="søndag"> Søndag </option>
+                            </select>   
+                          </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-25">
+                              <label for="velg-tid">Velg tid</label>
+                            </div>
+                            <div class="col-75">
+                                <select id="velg-tid" name="tid">
+                                    <option value="ønsket-tid"> Ønsket tid </option>
+                                    <option value="16"> 16.00 </option>
+                                    <option value="16.30"> 16.30 </option>
+                                    <option value="17"> 17.00 </option>
+                                    <option value="17.30"> 17.30 </option>
+                                    <option value="18"> 18.00 </option>
+                                    <option value="18.30"> 18.30 </option>
+                                    <option value="19"> 19.00 </option>
+                                    <option value="19.30"> 19.30 </option>
+                                    <option value="20"> 20.00 </option>
+                                    <option value="20.30"> 20.30 </option>
+                                    <option value="21"> 21.00 </option>
+                                    <option value="21.30"> 21.30 </option>
+                                    <option value="22"> 22.00 </option>
+                                </select>    
+                            </div>
+                          </div>
+                        <div class="row">
+                          <div class="col-25">
+                            <label for="melding">Melding</label>
+                          </div>
+                          <div class="col-75">
+                            <textarea id="melding" name="melding" placeholder="Skriv noe.." style="height:200px"></textarea>
+                          </div>
+                        </div>
+                        <div class="row">
+                          <input style="color: black;" type="submit" value="Send">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+    <footer style="background-image: linear-gradient(to top, rgba(0,0,0,0.7)50%,rgba(0,0,0,0.7)50%),url(assets/tamanna-rumee.jpg);";>
+        <div class="column">
+            <div class="card">
+                <div class="inner-text">
+                    <h3>Man – Tor</h3>
+                    <p>15:00 – 23:00</p>
+                    <h4>Kjøkkenet stenger 22:30</h4>
+                </div>
+                <div class="inner-text">
+                    <h3>Fre – Lør</h3>
+                    <p>15:00 – 24:00</p>
+                    <h4>Kjøkkenet stenger 22:30</h4>
+                </div>
+                <div class="inner-text">
+                    <h3>Søndag</h3>
+                    <p>14:00 – 21:30</p>
+                    <h4>Kjøkkenet stenger 21:00</h4>
+                </div>
+                
+            </div>
+            <div class="card" style="background-color: black; color: white;">
+                <div class="inner-text" style="color: white; font-size: medium;">
+                    <a style="color:white;" href="https://goo.gl/maps/dg27AhAjxRz94BTx5">Tjuvholmen allé 2, 0252 Oslo</a>
+                    <p style="color: white; font-size: medium;">Telefon: 22 22 22 22</p>
+                    <p style="color: white; font-size: medium;">E-post: MumbaiXpress@support.no</p>
+                </div>
+
+                <div class="icons">
+                    <a target_blank="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a target_blank="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

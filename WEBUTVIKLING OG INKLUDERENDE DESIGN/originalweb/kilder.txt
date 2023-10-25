@@ -1,0 +1,13 @@
+CSS column-gap property. (2022). W3schools.com. https://www.w3schools.com/cssref/css3_pr_column-gap.php
+How To Create a Two Column Layout. (2022). W3schools.com. https://www.w3schools.com/howto/howto_css_two_columns.asp
+Polaroid Effect with CSS. (2018). CodePen. https://codepen.io/Wandersonsc/pen/RMerRy
+Customer Review. (2021). CodePen. https://codepen.io/sitesoch/pen/yLbwjvg
+How To Create a Responsive Form with CSS. (2022). W3schools.com. https://www.w3schools.com/howto/howto_css_responsive_form.asp
+
+‌
+‌
+‌
+‌
+‌
+
+
